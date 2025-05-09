@@ -3,14 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>validacion formulario</title>
 </head>
 <body>
-	<form action="" method="post">
-		<input type="text" name="producto" placeholder="Nombre de producto"><br><br>
-		<input type="text" name="codigo" placeholder="Codigo de producto"><br><br>
-		<button type="submit" name="ok">ok</button>
-	</form>
+	<main class="row">
+		<section class="col_12 flex flex-j-c">
+			<form class="col_3 flex flex-flox-c flex-a-c form_01" action="" method="post">
+				<input type="text" name="producto" placeholder="Nombre de producto"><br><br>
+				<input type="text" name="codigo" placeholder="Codigo de producto"><br><br>
+				<button type="submit" name="ok">ok</button>
+			</form>
+		</section>
+	</main>
+	
 </body>
 </html>
 
